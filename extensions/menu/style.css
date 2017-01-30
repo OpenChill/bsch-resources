@@ -1,0 +1,129 @@
+.menu{
+	height: 100px;
+	width: 50%;
+	margin: -7px;
+	position: fixed;
+	margin-left: 0%;
+	margin-top: -15px;
+	background-color: #FFE4C4;
+	z-index: 3;
+	padding-bottom: 40px;
+	display: block;
+	}
+	
+.menu-mini{
+	display: none;
+}
+
+.menu button{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(	160,82,45,0.8 ); 
+	color: white;
+	border-radius: 50px;
+	}
+
+button:hover{
+	background-color: rgba(	160,82,45,0.3 ); 
+	color: black;
+	}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	height: 100%;
+}
+
+ th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 2px;
+	height:100%;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#main-menu-mini{
+		display: none;
+	}
+
+.mobile-menu{
+	display: none;
+}
+
+
+@media screen and (max-width: 980px) {
+	.menu{
+		display: none; 
+	}
+
+		
+	.menu-mini{
+		position: fixed;
+		display: block;
+		width: 90%;
+		height: 50px;
+		top: 0;
+	}
+	
+	#main-menu-mini{
+		display: none;
+	}
+	
+	#overlay{
+		position: fixed;
+		display: none;
+		height: 800px;
+		width: 100%;
+		z-index: 30;
+		top: 0;
+		left:0;
+		
+		background-color: rgba(	0,0,0,0.8 ); 
+	}
+	
+	.mobile-menu{
+		display: block;
+		margin-top: -30px;
+		position: fixed;
+		width: 150%;
+		margin-left: -80px;
+		z-index: 30;
+	}
+	
+	.mobile-menu button{
+		background-color: rgba(	160,82,45,0.8 );
+		text-align: center;
+	}
+	.mobile-menu button:hover{
+		background-color: rgba(	160,82,45,0.3 ); 
+		color: black;
+	}
+	.mobutt-menu{
+		color: black;
+		text-align: center;
+		padding-left: 30%;
+	}
+	.menu-minobo{
+		width: 100%;
+	}
+	.menu-mob-bg{
+		background: #FFE4C4;
+	}
+	.menu-outbord{
+		width: 100%;
+		height: 300px;
+		padding: 15%;
+		padding-right: 50%;
+		padding-top: 5%;
+		background: #FFE4C4;
+		
+	}
+	
+
+}
